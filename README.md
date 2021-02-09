@@ -13,7 +13,7 @@ Awesome Automatic Sql injection Tools Pack
 <p align="center">
   <img src="https://i.ibb.co/JjGDcgw/psqli2.png">
 </p>
-<a href="psqli.sh"><center>psqli.sh</center></a>
+
 ### Fitur
 <br>
 <li> singgle site injection
