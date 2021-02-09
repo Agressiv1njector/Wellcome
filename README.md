@@ -38,10 +38,10 @@ Awesome Automatic Sql injection Tools Pack
 
 ### Methode injection
 <br>
-#### psqli mempunyai 2 metode inject
-<br>
-<li>- Union based method
-<li>- Error based method
+
+
+<li> Union based method
+<li> Error based method
 <br>
 
 #### Di lengkapi
@@ -87,12 +87,12 @@ Awesome Automatic Sql injection Tools Pack
 <p>
   
   ```bash
-<p>$ pkg install bash curl git
-<p>$ curl -o psqli.sh agressivcode.6te.net/psqli-mod_final/psqli.sh
-<p>$ bash psqli.sh
-<p>$ bash psqli.sh s #untuk string based injection only
+$ pkg install bash curl git
+$ curl -o psqli.sh agressivcode.6te.net/psqli-mod_final/psqli.sh
+$ bash psqli.sh
+$ bash psqli.sh s #untuk string based injection only
 
-<p>
-<p>psqli* is licensed under [GPL v3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+psqli* is licensed under [GPL v3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 
