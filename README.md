@@ -35,6 +35,7 @@ Awesome Automatic Sql injection Tools Pack
 <li> Dork generator
 <li> Coming soon SQL into out file
 <br>
+
 ### Methode injection
 <br>
 #### psqli mempunyai 2 metode inject
@@ -42,6 +43,7 @@ Awesome Automatic Sql injection Tools Pack
 <li>- Union based method
 <li>- Error based method
 <br>
+
 #### Di lengkapi
 <br>
 <li> auto detect vuln
@@ -67,6 +69,7 @@ Awesome Automatic Sql injection Tools Pack
 <li> mudahh edit input output di bagian atas script
 <li> Dan masih banyak lagi
 <br>
+  
 ### Fix error inject site
 <br>
 <li> https://www.prettypetalsstore.com/single.php?id=68
@@ -78,7 +81,9 @@ Awesome Automatic Sql injection Tools Pack
 <li> http://tf.lan.go.id/statis-1-profil.html
 <li> http://www.godmother.co.uk/single-blog.php?blog_id=66
 <br>
+  
 ### Instalasi
+
 <p>```bash
 <p>$ pkg install bash curl git
 <p>$ curl -o psqli.sh agressivcode.6te.net/psqli-mod_final/psqli.sh
