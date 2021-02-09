@@ -84,11 +84,14 @@ Awesome Automatic Sql injection Tools Pack
   
 ### Instalasi
 
-<p>```bash
+<p>
+  
+  ```bash
 <p>$ pkg install bash curl git
 <p>$ curl -o psqli.sh agressivcode.6te.net/psqli-mod_final/psqli.sh
 <p>$ bash psqli.sh
 <p>$ bash psqli.sh s #untuk string based injection only
+
 <p>
 <p>psqli* is licensed under [GPL v3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
