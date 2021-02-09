@@ -27,14 +27,17 @@ Awesome Automatic Sql injection Tools Pack
 <li> Dork generator
 <li> New Admin Finder
 <li> Psqli Sqli/Xss/LFI/AdminFinder Scanner
+  
 ### NEW Pro feature
 <li> SQLi dork dumper
 <li> Auto Bypass SQL Login
 <li> Dork generator
 <li> Coming soon SQL into out file
+  
 ### Methode injection
 <li> Union based method
 <li> Error based method
+  
 #### Di lengkapi
 <li> auto detect vuln
 <li> order by bisa di sesuaikan
@@ -58,6 +61,7 @@ Awesome Automatic Sql injection Tools Pack
 <li> auto dorking edit lahh bagian .sites dan .key untuk mendapatkan hasil yang memuaskan
 <li> mudahh edit input output di bagian atas script
 <li> Dan masih banyak lagi
+  
 ### Fix error inject site
 <li> https://www.prettypetalsstore.com/single.php?id=68
 <li> https://www.smkdarulmuqomah.id/statis-16-program-keahlian.html
@@ -67,6 +71,7 @@ Awesome Automatic Sql injection Tools Pack
 <li> http://gandariacity.co.id/tenant.php?id=17
 <li> http://tf.lan.go.id/statis-1-profil.html
 <li> http://www.godmother.co.uk/single-blog.php?blog_id=66
+  
 ### Instalasi
   ```bash
 $ pkg install bash curl git
