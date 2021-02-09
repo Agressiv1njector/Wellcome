@@ -29,6 +29,11 @@ Awesome Automatic Sql injection Tools Pack
 <li> Dork generator
 <li> New Admin Finder
 <li> Psqli Sqli/Xss/LFI/AdminFinder Scanner
+### NEW Pro feature
+<li> SQLi dork dumper
+<li> Auto Bypass SQL Login
+<li> Dork generator
+<li> Coming soon SQL into out file
 <br>
 ### Methode injection
 <br>
