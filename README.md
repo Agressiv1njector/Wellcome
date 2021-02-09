@@ -33,10 +33,12 @@ Awesome Automatic Sql injection Tools Pack
 <li> Auto Bypass SQL Login
 <li> Dork generator
 <li> Coming soon SQL into out file
+  
 ### Methode injection
 <br>
 <li> Union based method
 <li> Error based method
+  
 #### Di lengkapi
 <br>
 <li> auto detect vuln
@@ -61,6 +63,7 @@ Awesome Automatic Sql injection Tools Pack
 <li> auto dorking edit lahh bagian .sites dan .key untuk mendapatkan hasil yang memuaskan
 <li> mudahh edit input output di bagian atas script
 <li> Dan masih banyak lagi
+  
 ### Fix error inject site
 <br>
 <li> https://www.prettypetalsstore.com/single.php?id=68
@@ -71,6 +74,7 @@ Awesome Automatic Sql injection Tools Pack
 <li> http://gandariacity.co.id/tenant.php?id=17
 <li> http://tf.lan.go.id/statis-1-profil.html
 <li> http://www.godmother.co.uk/single-blog.php?blog_id=66
+  
 ### Instalasi
 
   ```bash
